@@ -7,11 +7,11 @@ Why? Because the standard dd was too slow for my purpose! And in perl it was run
 
 The goal of this command is only to extract part of a file, something like you would do in dd:
 
-$ dd if=sourcefile of=targetfile bs=length count=1 skip=offset
+```$ dd if=sourcefile of=targetfile bs=length count=1 skip=offset```
 
 So now the syntax is simply
 
-$ dd.pl sourcefile targetfile offset length
+```$ dd.pl sourcefile targetfile offset length```
 
-Example: $ dd.pl myfiles.out myfile.pdf 12893 1299
+Example: ```$ dd.pl myfiles.out myfile.pdf 12893 1299
 
